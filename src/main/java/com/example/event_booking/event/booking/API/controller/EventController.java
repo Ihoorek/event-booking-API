@@ -9,7 +9,6 @@ import com.example.event_booking.event.booking.API.model.dto.BookingDto;
 import com.example.event_booking.event.booking.API.model.dto.EventDto;
 import com.example.event_booking.event.booking.API.service.BookingService;
 import com.example.event_booking.event.booking.API.service.EventService;
-import com.example.event_booking.event.booking.API.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -88,5 +87,6 @@ public class EventController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteBooking(@PathVariable int bookingId) {
         bookingService.deleteById(bookingId);
+
     }
 }

@@ -3,8 +3,6 @@ package com.example.event_booking.event.booking.API.controller;
 import com.example.event_booking.event.booking.API.model.command.CreateUserCommand;
 import com.example.event_booking.event.booking.API.model.command.UpdateUserCommand;
 import com.example.event_booking.event.booking.API.model.dto.UserDto;
-import com.example.event_booking.event.booking.API.service.BookingService;
-import com.example.event_booking.event.booking.API.service.EventService;
 import com.example.event_booking.event.booking.API.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
