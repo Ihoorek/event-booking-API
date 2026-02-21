@@ -33,7 +33,6 @@ import java.util.List;
 @RequestMapping("/api/v1/events")
 public class EventController {
 
-    private final UserService userService;
     private final BookingService bookingService;
     private final EventService eventService;
 
