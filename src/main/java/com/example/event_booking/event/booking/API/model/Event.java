@@ -28,7 +28,7 @@ public class Event {
     private Long id;
     private String title;
 
-    //добавить проверки для правильности введения данных regex
+    //добавить проверки для правильности введения данных regex w COMMAND!!!
     private LocalDateTime eventDate;
     private Integer totalSeats;
     private Integer availableSeats;
