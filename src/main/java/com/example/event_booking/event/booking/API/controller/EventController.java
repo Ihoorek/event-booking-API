@@ -9,7 +9,6 @@ import com.example.event_booking.event.booking.API.model.dto.BookingDto;
 import com.example.event_booking.event.booking.API.model.dto.EventDto;
 import com.example.event_booking.event.booking.API.service.BookingService;
 import com.example.event_booking.event.booking.API.service.EventService;
-import com.example.event_booking.event.booking.API.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -33,7 +32,6 @@ import java.util.List;
 @RequestMapping("/api/v1/events")
 public class EventController {
 
-    private final UserService userService;
     private final BookingService bookingService;
     private final EventService eventService;
 
